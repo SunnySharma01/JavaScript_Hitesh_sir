@@ -27,5 +27,5 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
-console.log(typeof "sunny");
-console.log(typeof 18);
+console.log(typeof "sunny"); //string
+console.log(typeof 18); //number
