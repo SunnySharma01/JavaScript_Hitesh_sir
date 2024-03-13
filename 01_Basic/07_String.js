@@ -35,7 +35,12 @@ console.log(str.substring(-5, -2)); // ""
 
 const anotherString = gameName.slice(0, 4) //slice(indexStart, indexEnd) last index is not included
 console.log(anotherString);
+
+const text = "Mozilla";
+console.log(text.slice(-5, 2)); // ""
+console.log(text.slice(-5, -2)); // "zil"
 /*
+
               indexStart        indexEnd
                   ↓               ↓
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
