@@ -34,12 +34,12 @@
 <script>
 
 document.getElementById('title')
-document.getElementById('title').id
-document.getElementById('title').class
-document.getElementById('title').className
-document.getElementById('title').getAttribute
-document.getElementById('title').getAttribute('class')
-document.getElementById('title').setAttribute('class','test heading')
+// document.getElementById('title').id
+// document.getElementById('title').class
+// document.getElementById('title').className
+// document.getElementById('title').getAttribute
+// document.getElementById('title').getAttribute('class')
+// document.getElementById('title').setAttribute('class','test heading')
 title.style.background ='green'
 
 /*
@@ -63,23 +63,23 @@ It returns all text, whether it is rendered on screen or not.
 // document.querySelector('.heading')            //class
 // document.querySelector('input[type="password"]')
 
-// document.querySelector('ul')
-// const myul =document.querySelector('h2')
-// myul.querySelector('li')
-// const turngreen=myul.querySelector('li')
-// turngreen.style.backgroundcolor ="green"
-// turngreen.style.padding ="10px"
+//document.querySelector('ul')
+ const myul = document.querySelector('ul')
+// myul.querySelector('ul')
+const turngreen = myul.querySelector('li')
+turngreen.style.backgroundColor = 'blue'
+turngreen.style.padding ="10px"
 // turngreen.innertext
-// turngreen.innertext="five"
+// turngreen.innertext = "five"
 
 
 // const tempList = document.querySelectorAll('li')             //it's return nodelist
 // tempList[0].style.color ='green'                       
 
 
-const tempClassList = document.getElementsByClassName('list-item')   //it's return HTML Collection
-const myconvertedarray = Array.from(tempClassList)                 //it's convert into array
-myconvertedarray.forEach(function(li){
-    li.style.color = 'green'
-})
+// const tempClassList = document.getElementsByClassName('list-item')   //it's return HTML Collection
+// const myconvertedarray = Array.from(tempClassList)                 //it's convert into array
+// myconvertedarray.forEach(function(li){
+//     li.style.color = 'green'
+// })
 </script>
